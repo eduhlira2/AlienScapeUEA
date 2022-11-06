@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class RotateScenario : MonoBehaviour
 {
+    public GameObject alien;
+    
     public GameObject scenario;
     Quaternion targetAngle_0 = Quaternion.Euler(0,0,0);
     Quaternion targetAngle_90 = Quaternion.Euler(0,0,90);
@@ -33,10 +35,17 @@ public class RotateScenario : MonoBehaviour
             
         }
         scenario.transform.rotation = Quaternion.Slerp(scenario.transform.rotation, currentAngle, 0.02f);
+
+        Debug.Log(Mathf.Abs(scenario.transform.rotation.eulerAngles.z - currentAngle.eulerAngles.z));
+        if (Mathf.Abs(scenario.transform.rotation.eulerAngles.z - currentAngle.eulerAngles.z) <= 1)
+        {
+            alien.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+        }
     }
 
     void ChangeAngleLeft()
     {
+        alien.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         if (currentAngle.eulerAngles.z == targetAngle_360.eulerAngles.z)
         {
             currentAngle = targetAngle_0;
@@ -61,6 +70,7 @@ public class RotateScenario : MonoBehaviour
 
     void ChangeAngleRight()
     {
+        alien.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         if (currentAngle.eulerAngles.z == targetAngle_0.eulerAngles.z)
         {
             currentAngle = targetAngle_360;
