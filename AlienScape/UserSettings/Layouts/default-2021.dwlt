@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 3007
+  controlID: 103
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2965
+  controlID: 104
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -376,21 +376,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4ca6ffffb2abfffff8efffff42f0ffff22f1ffffe4f3ffff0cf6ffffe2f6ffff4ef7ffff8efaffff466200001e84000066840000
+      m_ExpandedIDs: e2d8ffff6ad9ffffe0defffff8dfffffecf8ffff2cf9ffff6cf9ffffaef9ffff28fbffff08630000766300007a63000086630000846400006e660000726600001468000054680000aa680000ae680000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Spikes (4)
+        m_OriginalName: Spikes (4)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 26730
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -647,9 +647,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6501572, y: 1.3264617, z: -0.17041667}
+    m_Target: {x: 1.5143846, y: 1.3408849, z: -0.09944878}
     speed: 2
-    m_Value: {x: -1.6501572, y: 1.3264617, z: -0.17041667}
+    m_Value: {x: 1.3878443, y: 1.0886441, z: -0.096481234}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -700,9 +700,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.026512
+    m_Target: 6.8912897
     speed: 2
-    m_Value: 6.026512
+    m_Value: 6.594536
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -768,36 +768,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Pixel Adventure 1/Assets/Traps/Spikes
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Pixel Adventure 1/Assets/Traps/Spikes
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\MARK\Documents\GitHub\AlienScapeUEA\AlienScape
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 8.600006}
-    m_SelectedIDs: 0e850000
-    m_LastClickedID: 34062
-    m_ExpandedIDs: 0000000082600000846000007c670000e66c0000526e0000ea76000004850000068500000c85000000ca9a3b
+    scrollPos: {x: 0, y: 20.600006}
+    m_SelectedIDs: 9a600000
+    m_LastClickedID: 24730
+    m_ExpandedIDs: 000000007c6000007e600000806000008260000084600000866000008e600000906000009260000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: OtherAssets
-      m_OriginalName: OtherAssets
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 25044
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -811,7 +811,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000826000008460000000ca9a3b
+    m_ExpandedIDs: 000000007c6000007e60000080600000826000008460000086600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
